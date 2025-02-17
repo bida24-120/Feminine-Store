@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dineo Feminine Store</title>
+    <style>
+        /* Apply background image and styling */
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('drizzy.jpg') no-repeat center center/cover;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navigation bar */
+        .navbar {
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        /* Centered heading */
+        .heading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Sign Up</a>
+        <a href="#">Sign In</a>
+    </div>
+
+    <!-- Centered Heading -->
+    <div class="heading">
+        Dineo Feminine Store
+    </div>
+
+</body>
+</html>
