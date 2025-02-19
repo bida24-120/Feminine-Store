@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page - Dineo Feminine Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #d63384;
+        }
+
+        .category {
+            margin: 40px auto;
+            width: 90%;
+        }
+
+        .category h2 {
+            color: #333;
+            border-bottom: 3px solid #d63384;
+            padding-bottom: 10px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .product-card {
+            background: white;
+            width: 250px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .product-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .price {
+            color: #d63384;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .add-to-cart {
+            margin-top: 10px;
+            padding: 10px 15px;
+            border: none;
+            background-color: #d63384;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .add-to-cart:hover {
+            background-color: #b2226f;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Shop Our Products</h1>
+
+
+    <!-- Jewelry Section -->
+    <div class="category">
+        <h2>Jewelry</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="jewellery.01.jpg" alt="Gold Bracelet">
+                <div class="product-name">Gold Necklace</div>
+                <div class="price">$49.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        <div class="products">
+            <div class="product-card">
+                <img src="jewellery.02.jpg" alt="Gold Necklace">
+                <div class="product-name">Gold Necklace</div>
+                <div class="price">$49.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="jewellery.03.jpg" alt="Gold bracelet">
+                <div class="product-name">Diamond Earrings</div>
+                <div class="price">$89.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+     <!-- Heels Section -->
+     <div class="category">
+         <h2>Heels</h2>
+         <div class="products">
+             <div class="product-card">
+                <img src="Heel.01.jpg" alt="Red kitten Heels">
+                <div class="product-name">Red Stiletto Heels</div>
+                <div class="price">$59.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        <div class="products">
+            <div class="product-card">
+                <img src="Heel.02.jpg" alt="Black Stiletto Heels">
+                <div class="product-name">Red Stiletto Heels</div>
+                <div class="price">$59.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+
+
+            <div class="product-card">
+                <img src="Heel.03.jpg" alt="Black High Heels">
+                <div class="product-name">Black High Heels</div>
+                <div class="price">$69.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bags Section -->
+    <div class="category">
+        <h2>Bags</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="Bag.01.jpg" alt="Leather Handbag">
+                <div class="product-name">Leather Handbag</div>
+                <div class="price">$79.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="Bag.02.jpg" alt="Leather Handbag">
+                <div class="product-name">Leather Handbag</div>
+                <div class="price">$49.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="product-card">
+                <img src="Bag.03.jpg" alt="Leather Handbag">
+                <div class="product-name">Leather Handbag</div>
+                <div class="price">$49.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Body Care Section -->
+    <div class="category">
+        <h2>Body Care</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="Bodycare.01.jpg" alt="Bathing essentials vaseline">
+                <div class="product-name">Aloe Vera Lotion</div>
+                <div class="price">$19.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+           <div class="products">
+            <div class="product-card">
+                <img src="Bodycare.02.jpg" alt="Bathing essentials nivea">
+                <div class="product-name">Aloe Vera Lotion</div>
+                <div class="price">$19.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="Bodycare.03.jpg" alt="Bathing essentials eosos">
+                <div class="product-name">Rose Scented Perfume</div>
+                <div class="price">$39.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
