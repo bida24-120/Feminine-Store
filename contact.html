@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Dineo Feminine Store</title>
+    <title>Contact Us - Dineo Feminine Store</title>
     <style>
         /* Basic styling */
         body {
@@ -42,13 +42,17 @@
             color: #d63384;
         }
 
-        /* About Us Content */
-        .content {
+        /* Contact Section */
+        .contact-container {
             margin-top: 120px; /* Space below the fixed navbar */
             padding: 40px;
             max-width: 800px;
             margin-left: auto;
             margin-right: auto;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
@@ -57,27 +61,50 @@
             margin-bottom: 20px;
         }
 
-        .description {
+        /* Contact Form */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 80%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .contact-form textarea {
+            height: 120px;
+        }
+
+        .contact-form button {
+            background-color: #d63384;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: #b2226f;
+        }
+
+        /* Contact Details */
+        .contact-details {
+            margin-top: 30px;
+        }
+
+        .contact-details p {
             font-size: 18px;
             line-height: 1.6;
-            background: rgba(255, 255, 255, 0.8);
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Team Section */
-        .team {
-            margin-top: 50px;
-        }
-
-        .team img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
 
         /* Social Media */
@@ -124,33 +151,34 @@
         <a href="signup.html">Sign Up</a>
     </div>
 
-    <!-- About Us Content -->
-    <div class="content">
-        <h1>About Dineo Feminine Store</h1>
-        <div class="description">
-            <p>Welcome to <strong>Dineo Feminine Store</strong>, where beauty meets self-expression. We believe that true beauty is a blend of self-care and confidence.</p>
-            <p>Our brand is dedicated to empowering women by offering a curated selection of <strong>body care essentials, aesthetic clothing, bags, and elegant jewelry</strong> that celebrate femininity in all its forms.</p>
-        </div>
+    <!-- Contact Section -->
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <p>If you have any questions, feel free to reach out to us!</p>
 
-        <h2>Our Mission</h2>
-        <p class="description">To provide high-quality, carefully curated products that enhance every woman’s beauty and confidence.</p>
+        <!-- Contact Form -->
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Dineo" required>
+            <input type="email" name="email" placeholder="reabetswedineodikgang@gmail.com" required>
+            <input type="text" name="subject" placeholder="Airport Junction" required>
+            <textarea name="message" placeholder="Text hey" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
 
-        <h2>Our Vision</h2>
-        <p class="description">To become the go-to brand for women seeking elegance, quality, and empowerment through beauty and fashion.</p>
-
-        <!-- Team Section -->
-        <div class="team">
-            <h2>Meet Our Founder</h2>
-            <img src="WIN_20241109_10_15_28_Pro.jpg" alt="Founder Image">
-            <p class="description"><strong>Dineo</strong>, our visionary founder, is passionate about fashion, beauty, and self-expression. Her goal is to bring high-quality feminine products to women worldwide.</p>
+        <!-- Contact Details -->
+        <div class="contact-details">
+            <h2>Our Contact Information</h2>
+            <p><strong>Email:</strong> support@dineofemininestore.com</p>
+            <p><strong>Phone:</strong> +267 456 7890</p>
+            <p><strong>Address:</strong> 123 Beauty Lane, Fashion City, 56789</p>
         </div>
 
         <!-- Social Media -->
         <div class="social-icons">
             <h2>Follow Us</h2>
-            <a href="reabetswe_dineo" target="_blank">📷 Instagram</a>
-            <a href="Dineos Online Store" target="_blank">📘 Facebook</a>
-            <a href="Dineos Store" target="_blank">🐦 Twitter</a>
+            <a href="reabetswe_dikgang" target="_blank">📷 Instagram</a>
+            <a href="Dineo's Store" target="_blank">📘 Facebook</a>
+            <a href="Dineo's Feminine Store" target="_blank">🐦 Twitter</a>
         </div>
     </div>
 
