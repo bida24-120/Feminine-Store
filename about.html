@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Dineo Feminine Store</title>
+    <title>Contact Us - Dineo Feminine Store</title>
     <style>
+        /* Basic styling */
         body {
             margin: 0;
             padding: 0;
@@ -14,14 +15,15 @@
             text-align: center;
         }
 
+        /* Navigation Bar */
         .navbar {
             display: flex;
             justify-content: center;
+            width: 100%;
             background: rgba(255, 255, 255, 0.8);
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             position: fixed;
-            width: 100%;
             top: 0;
             z-index: 1000;
         }
@@ -40,8 +42,9 @@
             color: #d63384;
         }
 
-        .content {
-            margin-top: 100px;
+        /* Contact Section */
+        .contact-container {
+            margin-top: 120px; /* Space below the fixed navbar */
             padding: 40px;
             max-width: 800px;
             margin-left: auto;
@@ -52,87 +55,102 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
-        h1, h2 {
+        h1 {
             color: #d63384;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        /* About Us Content */
+        .content {
+            padding: 60px 20px;
+            text-align: center;
         }
 
         .description {
             font-size: 18px;
             line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto 20px;
+        }
+
+        /* Team Section */
+        .team {
+            margin-top: 40px;
         }
 
         .team img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
+            width: 300px; /* Increased image size */
+            height: auto;
+            border-radius: 10px;
             margin-top: 10px;
         }
 
-        .contact-info {
-            margin-top: 20px;
+        /* Emails and Contact */
+        .Emails {
+            margin-top: 30px;
             font-size: 18px;
         }
 
-        .social-icons a {
-            display: inline-block;
-            margin: 10px;
-            font-size: 24px;
-            color: #d63384;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .social-icons a:hover {
-            color: #b2226f;
-        }
-
+        /* Footer */
         footer {
             margin-top: 50px;
             padding: 20px;
             background: rgba(255, 255, 255, 0.8);
             box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
         }
+
+        footer p {
+            font-size: 14px;
+            color: #555;
+        }
     </style>
 </head>
 <body>
 
+    <!-- Navigation Bar -->
     <div class="navbar">
         <a href="index.html">Home</a>
         <a href="products.html">Products</a>
         <a href="about.html">About Us</a>
-        <a href="contact.html">Contact</a>
+        <a href="contacts.html">Contacts</a>
         <a href="signin.html">Sign In</a>
         <a href="signup.html">Sign Up</a>
     </div>
 
+    <!-- About Us Content -->
     <div class="content">
         <h1>About Dineo Feminine Store</h1>
-        <p class="description">Welcome to <strong>Dineo Feminine Store</strong>, where beauty meets self-expression. We provide high-quality fashion, beauty, and lifestyle products to empower women worldwide.</p>
+        <div class="description">
+            <p>Welcome to <strong>Dineo Feminine Store</strong>, where beauty meets self-expression. We believe that true beauty is a blend of self-care and confidence.</p>
+            <p>Our brand is dedicated to empowering women by offering a curated selection of <strong>body care essentials, aesthetic clothing, bags, and elegant jewelry</strong> that celebrate femininity in all its forms.</p>
+        </div>
 
         <h2>Our Mission</h2>
-        <p class="description">Our mission is to provide elegant, high-quality products that enhance confidence and self-care.</p>
+        <p class="description">To provide high-quality, carefully curated products that enhance every woman’s beauty and confidence.</p>
 
         <h2>Our Vision</h2>
-        <p class="description">To become the go-to brand for women seeking style, quality, and empowerment through beauty and fashion.</p>
+        <p class="description">To become the go-to brand for women seeking elegance, quality, and empowerment through beauty and fashion.</p>
 
+        <!-- Team Section -->
         <div class="team">
             <h2>Meet Our Founder</h2>
             <img src="fex.jpg" alt="Founder Image">
-            <p class="description"><strong>Dineo</strong>, our visionary founder, is passionate about beauty, fashion, and self-care. Her goal is to provide exceptional feminine products worldwide.</p>
+            <p class="description"><strong>Dineo</strong>, our visionary founder, is passionate about fashion, beauty, and self-expression. Her goal is to bring high-quality feminine products to women worldwide.</p>
         </div>
 
-        <div class="contact-info">
+        <!-- Emails -->
+        <div class="Emails">
             <h2>Contact Us</h2>
-            <p>Email: <strong>reabetswedineodikgang@gmail.com</strong></p>
-            <p>Phone: <strong>+267 367 567</strong></p>
-            <div class="social-icons">
-                <a href="https://www.instagram.com/reabetswe_dineo" target="_blank">📷 Instagram</a>
-            </div>
+            <p>Email: reabetswedineodikgang@gmail.com</p>
+            <p>Phone: +267 367 567</p>
+            <a href="https://www.instagram.com/reabetswe_dineo" target="_blank">📷 Instagram</a>
         </div>
     </div>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Dineo Feminine Store. All rights reserved.</p>
+        <p>&copy; 2025 Dineo's Feminine Store. All rights reserved.</p>
     </footer>
 
 </body>
