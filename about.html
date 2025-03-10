@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Dineo Feminine Store</title>
+    <title>About Us - Dineo Feminine Store</title>
     <style>
         body {
             margin: 0;
@@ -17,11 +17,11 @@
         .navbar {
             display: flex;
             justify-content: center;
-            width: 100%;
             background: rgba(255, 255, 255, 0.8);
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             position: fixed;
+            width: 100%;
             top: 0;
             z-index: 1000;
         }
@@ -40,33 +40,37 @@
             color: #d63384;
         }
 
-        .contact-container {
-            margin-top: 120px;
+        .content {
+            margin-top: 100px;
             padding: 40px;
             max-width: 800px;
             margin-left: auto;
             margin-right: auto;
             background: rgba(255, 255, 255, 0.8);
+            padding: 30px;
             border-radius: 15px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
-        h1 {
+        h1, h2 {
             color: #d63384;
-            font-size: 32px;
-            margin-bottom: 20px;
         }
 
         .description {
             font-size: 18px;
             line-height: 1.6;
-            padding: 10px;
         }
 
-        .contact-details {
-            margin-top: 30px;
+        .team img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+
+        .contact-info {
+            margin-top: 20px;
             font-size: 18px;
-            font-weight: bold;
         }
 
         .social-icons a {
@@ -74,6 +78,7 @@
             margin: 10px;
             font-size: 24px;
             color: #d63384;
+            text-decoration: none;
             transition: color 0.3s;
         }
 
@@ -87,39 +92,48 @@
             background: rgba(255, 255, 255, 0.8);
             box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
         }
-
-        footer p {
-            font-size: 14px;
-            color: #555;
-        }
     </style>
 </head>
 <body>
+
     <div class="navbar">
         <a href="index.html">Home</a>
         <a href="products.html">Products</a>
         <a href="about.html">About Us</a>
-        <a href="contacts.html">Contact</a>
+        <a href="contact.html">Contact</a>
         <a href="signin.html">Sign In</a>
         <a href="signup.html">Sign Up</a>
     </div>
 
-    <div class="contact-container">
-        <h1>Contact Us</h1>
-        <p class="description">We would love to hear from you! Get in touch with us using the details below.</p>
+    <div class="content">
+        <h1>About Dineo Feminine Store</h1>
+        <p class="description">Welcome to <strong>Dineo Feminine Store</strong>, where beauty meets self-expression. We provide high-quality fashion, beauty, and lifestyle products to empower women worldwide.</p>
 
-        <div class="contact-details">
-            <p>Email: <a href="mailto:reabetswedineodikgang@gmail.com">reabetswedineodikgang@gmail.com</a></p>
-            <p>Phone: +267 367 567</p>
+        <h2>Our Mission</h2>
+        <p class="description">Our mission is to provide elegant, high-quality products that enhance confidence and self-care.</p>
+
+        <h2>Our Vision</h2>
+        <p class="description">To become the go-to brand for women seeking style, quality, and empowerment through beauty and fashion.</p>
+
+        <div class="team">
+            <h2>Meet Our Founder</h2>
+            <img src="fex.jpg" alt="Founder Image">
+            <p class="description"><strong>Dineo</strong>, our visionary founder, is passionate about beauty, fashion, and self-care. Her goal is to provide exceptional feminine products worldwide.</p>
         </div>
 
-        <div class="social-icons">
-            <a href="https://instagram.com/reabetswe_dineo" target="_blank">📷 Instagram</a>
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Email: <strong>reabetswedineodikgang@gmail.com</strong></p>
+            <p>Phone: <strong>+267 367 567</strong></p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/reabetswe_dineo" target="_blank">📷 Instagram</a>
+            </div>
         </div>
     </div>
 
     <footer>
         <p>&copy; 2025 Dineo Feminine Store. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
